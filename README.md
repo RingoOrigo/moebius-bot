@@ -10,7 +10,7 @@ A small-scale, meme-based Discord bot.
 * `/roulette`
   * A simple roulette command with several different death messages upon losing. Current odds are ~2% (Winning is intentionally incredibly rare.)
 
-#Planned Features
+# Planned Features
 * Toggle Moebin' Time
 * Levelling
 * Custom Profile System
