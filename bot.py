@@ -13,7 +13,6 @@ intents = discord.Intents.default()
 intents.message_content = True
 #Open the token.txt file (not present in this repository) to obtain the bot's token to enable it to run.
 bot = discord.Bot(intents = intents)
-statusList = ["Xenoblade Chronicles 3", "The Eternal Now", "The Cycle of Rebirth", "with your lives."]
 
 #Play event when bot is ready to be used.
 @bot.event
