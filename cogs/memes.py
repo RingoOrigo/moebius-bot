@@ -8,11 +8,11 @@ class memes(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
 
-	@commands.slash_command()
+	@commands.slash_command(description = "Declare that it is time to Moeb.")
 	async def moeb(self, ctx: discord.ApplicationContext):
 		await ctx.respond("IT'S MOEBIN' TIME!")
 
-	@commands.slash_command()
+	@commands.slash_command(description = "Play Russian Roulette, see if you win.")
 	async def roulette(self, message):
 		i = random.randrange(1, 50)
 		author = message.author.display_name
