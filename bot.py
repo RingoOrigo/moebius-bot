@@ -37,7 +37,7 @@ async def changePresence():
 async def waitForReady():
     await bot.wait_until_ready()
         
-@bot.slash_command()
+@bot.slash_command(description = "Greet Moebius")
 async def hello(ctx):
     await ctx.respond("Hello, Ouroboros.", ephemeral=True)
 
