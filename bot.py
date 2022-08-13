@@ -11,7 +11,6 @@ from config import config
 #Important Variables:
 intents = discord.Intents.default()
 intents.message_content = True
-#Open the token.txt file (not present in this repository) to obtain the bot's token to enable it to run.
 bot = discord.Bot(intents = intents)
 
 #Play event when bot is ready to be used.
@@ -24,7 +23,8 @@ async def on_ready():
 async def on_message(message):
     if message.author.id == bot.user.id:
         return
-
+    if bot.user.mentioned_in(message):
+        await message.reply(random.choice(config.PING_REPLIES), mention_author=False)
     if "time" in message.content.lower():
         await message.reply("It's Moebin' time!", mention_author=False)
 
@@ -37,7 +37,7 @@ async def changePresence():
 async def waitForReady():
     await bot.wait_until_ready()
         
-@bot.slash_command(description = "Greet Moebius")
+@bot.slash_command()
 async def hello(ctx):
     await ctx.respond("Hello, Ouroboros.", ephemeral=True)
 
