@@ -3,6 +3,7 @@ import random
 
 from discord.ext import commands
 from config import config
+from discord import option
 
 class memes(commands.Cog):
 	def __init__(self, bot):
