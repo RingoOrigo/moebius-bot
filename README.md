@@ -11,7 +11,11 @@ A small-scale, meme-based Discord bot.
   * A simple roulette command with several different death messages upon losing. Current odds are ~2% (Winning is intentionally incredibly rare.)
 * `/moeb`
   * A community requested command, sends "IT'S MOEBIN' TIME!" in chat.
-
+* `/hug`
+  * A command to spread positivity by hugging fellow server members!
+* `/pat`
+  * Spread positivity by patting your fellow server members on the head!
+  
 # Planned Features
 * Toggle Moebin' Time
   * Will be possible after eceonomic features are implemented, as a database is needed to keep consistent track of which servers have this feature enabled and disabled.
