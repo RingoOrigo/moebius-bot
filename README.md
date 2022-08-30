@@ -28,4 +28,4 @@ A small-scale, meme-based Discord bot.
 # View Progress
 You can view progress on planned features, and feature boards for them, in the `Projects` tab of this repository, which you can access by clicking [these words](https://github.com/RingoOrigo/moebius-bot/projects).
 
-Additonally, you can suggest features by [openning up an issue](https://github.com/RingoOrigo/moebius-bot/issues/new) and marking it as `suggestion-feature request`!
+Additonally, you can suggest features by [opening up an issue](https://github.com/RingoOrigo/moebius-bot/issues/new) and marking it as `suggestion-feature request`!
