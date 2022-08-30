@@ -24,7 +24,7 @@ class socials(commands.Cog):
     @option("User to pat", discord.Member, description = "Select the user's head you wish to pat", required = True)
     async def pat(self, message, member: discord.Member):
         embed = discord.Embed(
-            title = f"{message.author.display_name} has gived {member.display_name} a pat on the head",
+            title = f"{message.author.display_name} has given {member.display_name} a pat on the head",
             description = random.choice(config.POSITIVE_COMMUNITY_MESSAGES),
             color = discord.Colour.red()
         )
