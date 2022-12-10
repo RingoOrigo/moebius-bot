@@ -15,6 +15,8 @@ A small-scale, meme-based Discord bot.
   * A command to spread positivity by hugging fellow server members!
 * `/pat`
   * Spread positivity by patting your fellow server members on the head!
+* `/cool`
+  * See how cool you are on a scale from 1 - 10! Has a pretty coloured progress bar, with a special feature if you get the fabled 10/10.
   
 # Planned Features
 * Toggle Moebin' Time
