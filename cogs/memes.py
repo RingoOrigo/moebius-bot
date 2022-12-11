@@ -36,7 +36,7 @@ class memes(commands.Cog):
 		elif (coolVal < 10):
 			emote = ":green_square:"
 		elif (coolVal == 10):
-			emote = ":blue_square"
+			emote = ":blue_square:"
 
 		i = 1
 		while i<= coolVal:
