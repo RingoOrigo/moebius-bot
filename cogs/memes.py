@@ -25,7 +25,7 @@ class memes(commands.Cog):
 
 	@commands.slash_command(description="Let Moebius decide if you're cool or not.")
 	async def cool(self, message):
-		coolVal : int = random.randrange(1, 10)
+		coolVal : int = random.randrange(1, 11)
 		result = f"```{message.author.display_name}, on a scale of 1 - 10, you get a {coolVal} on the Moebius Cool Meter```\n**|**"
 		emote = ""
 		
