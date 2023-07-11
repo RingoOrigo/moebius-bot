@@ -2,6 +2,9 @@
 
 A small-scale, meme-based Discord bot.
 
+**THIS PROJECT IS ARCHIVED!!**
+This project has been archived for a variety of reasons, mainly because a new project is in the works, and I do not wish for the two to exist simulataneously. 
+
 # Current Features
 
 * `It's Moebin' time`
